@@ -88,7 +88,7 @@ body{
         font-weight: bold;
     }
     .txt{
-        font-size: 15px;
+        font-size: 13px;
         font-weight: bold;
     
     }
@@ -99,11 +99,11 @@ body{
       background-color:rgb(7, 73, 47)
     }
     .digit{
-        font-size: 23px;
+        font-size: 55px;
         font-weight: bold;
     }
     .txt{
-        font-size: 5px;
+        font-size: 12px;
         font-weight: bold;
     
     }
