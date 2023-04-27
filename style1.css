@@ -1,0 +1,110 @@
+body{
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    color:#d7dfe4;
+}
+
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+
+}
+
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+#btn-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn{
+    padding: 9px 25px;
+    font-size:15px;
+    margin: 0 10px;
+    color:white;
+    border: 0px;
+    cursor: pointer;
+}
+
+#start{
+    background-color: #1abc9c;
+}
+
+#stop{
+    background-color: #3498db;
+}
+
+#reset{
+    background-color: #e74c3c;
+}
+
+
+@media only screen and (max-width: 819px) {
+    body {
+      background-color:rgb(2, 63, 63)
+    }
+    .digit{
+        font-size: 120px;
+        font-weight: bold;
+    }
+    .txt{
+        font-size: 30px;
+        font-weight: bold;
+    
+    }
+  }
+
+  @media only screen and (max-width: 664px) {
+    body {
+      background-color:rgb(70, 73, 7)
+    }
+    .digit{
+        font-size: 90px;
+        font-weight: bold;
+    }
+    .txt{
+        font-size: 20px;
+        font-weight: bold;
+    
+    }
+  }
+
+  
+  @media only screen and (max-width: 489px) {
+    body {
+      background-color:rgb(7, 53, 73)
+    }
+    .digit{
+        font-size: 75px;
+        font-weight: bold;
+    }
+    .txt{
+        font-size: 15px;
+        font-weight: bold;
+    
+    }
+  }
+
+  @media only screen and (max-width: 409px) {
+    body {
+      background-color:rgb(7, 73, 47)
+    }
+    .digit{
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .txt{
+        font-size: 15px;
+        font-weight: bold;
+    
+    }
+  }
